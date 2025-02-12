@@ -1,11 +1,11 @@
 <?php
 $prestools_settings = [];
-$prestools_settings["users"] = /* username  =>  password  ,  real name */
+$prestools_settings["users"] =
 	['bartek@hub.tech'=> ['1m2asdfm1asdfm129x08c1', 'Demo user']];
 /* You can as much users as you want. Please remove the default user "demo@demo.com"
    and password "opensecret". The "real name" is used in the logfiles when enabled. */
 /* example ['demo@demo.com'=> ['opensecret', 'Demo user'],'john@smith.com'=>['mysecret','Johnny']]; */
-$prestools_settings["ipaddresses"] = array();
+$prestools_settings["ipaddresses"] = array("62.133.141.8");
 // Example: $prestools_settings["ipadresses = array("111.22.33.44","11.33.55.*","::1"); 
 //Note that "::1" is the IPv6 variation on "127.0.0.1" and used for localhost.
 // array("*.*.*.*","*:*:*:*:*:*:*:*:*","::1") will give access to all ip addresses
