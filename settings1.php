@@ -1,7 +1,7 @@
 <?php
 $prestools_settings = [];
 $prestools_settings["users"] = /* username  =>  password  ,  real name */
-	['bartek@hub.tech'=> ['1m2asdfm1asdfm129x08c', 'Demo user']];
+	['bartek@hub.tech'=> ['1m2asdfm1asdfm129x08c1', 'Demo user']];
 /* You can as much users as you want. Please remove the default user "demo@demo.com"
    and password "opensecret". The "real name" is used in the logfiles when enabled. */
 /* example ['demo@demo.com'=> ['opensecret', 'Demo user'],'john@smith.com'=>['mysecret','Johnny']]; */
