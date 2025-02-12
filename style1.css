@@ -1,0 +1,311 @@
+﻿body {
+  font: normal 13px Arial, Tahoma, Verdana;
+  margin: 0;
+  padding: 0 3px;
+}
+
+p {
+  padding: 3px;
+}
+
+input.calculated {
+	background-color: #cccccc;
+}
+
+div.newimg {
+	background-color:#66cc44;
+}
+
+#listbutton_span button:disabled {color:red}
+
+/* styles for product-edit */
+.redname {color:#b8312f; text-decoration: none; font-weight: bold;}
+option.defcat {background-color: #ff2222;}
+option.selcat {background-color: #ffff66;}
+td.defcat {font-weight: bold;}
+table.triplemain tr td table { border-spacing: 0; border-collapse: collapse; }
+/* table.discount_table tr td input { width: 30px } */
+.datum { width: 66px; }
+.prijs { width: 45px; }
+div.TinyLine {text-align:center; font-size:75%;}
+a.TinyLine {display:block; text-align:center; font-size:75%}
+div.TinyLine span {float:right}
+
+.nobr { white-space:nowrap;}
+
+table.triplehome
+{ width:100%;
+  padding: 0;
+}
+
+td.headline
+{ text-align: center;
+  padding-top: 15px;
+  padding-bottom:22px;  
+  font-size: 75%;
+}
+
+td.headline a
+{ text-decoration: none;
+  font-size: 250%;
+  font-weight: bold; 
+}
+
+select.comparer {
+	width: 40px;
+}
+
+table.tripleswitch td
+{ text-align:center;
+}
+
+table.suppliertable tr td input
+{ width:100px !important;
+}
+
+table.tripleminimal
+{ border:0;
+  padding: 0;
+  width: 100%;
+}
+
+table.tripletight
+{ border:0;
+  padding: 0;
+}
+
+table.triplesearch, table.tripleswitch, table.triplemain, table.ordersearch, table.orderlister
+{	margin: 1px;
+	border-collapse: collapse;
+}
+
+table.triplesearch, table.tripleswitch
+{ width: 100%;
+} 
+
+table.triplecsv
+{ width:100%; 
+  margin: 5px 0 5px 0;
+  border-spacing: 0; border-collapse: collapse;
+  padding: 33px;
+}
+
+table.triplecsv td
+{ padding: 4px;
+  border: 2px solid #c3c3c3;	
+}
+
+table.ordersearch td
+{ padding: 3px;
+  text-align:center;
+
+}
+
+table.pattribute input
+{ width: 35px;
+}
+
+table.triplemain  td, table.triplemain  th,
+table.tripleswitch  td, 
+table.triplesearch  td,
+table.orderlister  td
+{ border: 1px solid #c3c3c3;
+  padding: 2px;
+}
+table.triplemain img
+{ display:block; /* without this there is a 3px space under every image */	
+}
+
+table.triplemain span.vissort img
+{ display:inline; /* without this there is a 3px space under every image */	
+}
+
+table.triplesearch  td  table td
+{	border: 0;
+}
+
+table.orderlister
+{	margin-bottom: 4px;
+}
+
+table.triplemain  td 
+{ padding:2px;
+  empty-cells:show;
+}
+
+table.triplemain  td table td
+{ padding: 0;
+}
+
+.notpaid
+{ background-color: #FFE0A8;
+  color: #888888;
+}
+
+table.spacer td { /* makes the tables on cleanup.php and related pages */
+	padding:12px;
+	border: 1px solid #c3c3c3;
+	border-collapse: collapse;
+}
+
+div.noimg 
+{ display: inline-block;
+  vertical-align: bottom;
+  height:45px;
+  width: 45px;	
+}
+
+.attachlink
+{ white-space:nowrap; 
+  font-size: 10pt;
+  color: #554411;
+}
+
+textarea.masstarea
+{ overflow: auto;
+  width: 130px;
+  height: 25px;
+  vertical-align: middle;
+
+}
+
+input.catselnum
+{ width:23px; 
+  height:13px; 
+  color:#888888;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  
+}
+
+/*navi by Josh Riser,
+http://cssdeck.com/labs/another-simple-css3-dropdown-menu
+adapted by hakeryk2 from prestashop forums.
+*/
+.navi {
+    background: #2c82c9;
+  /*width: 100%;*/
+    padding-left: 0;
+    margin-bottom: 13px;
+    margin-top: 0;
+    list-style: none;
+ }
+
+.navi ul {
+  /*text-align: left;*/
+  /*display: inline;*/
+  /*margin: 0;*/
+  /*padding: 15px 4px 17px 0;*/
+  /*list-style: none;*/
+ }
+
+ul.navi li {
+    font: bold 12px/18px sans-serif;
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+  /*padding: 13px 21px;*/
+    background: #2969b0;
+  /*cursor: pointer;*/
+  /*-webkit-transition: all 0.2s;*/
+  /*-moz-transition: all 0.2s;*/
+  /*-o-transition: all 0.2s;*/
+    transition: all 0.2s;
+ }
+
+ul.navi li.menuimg {
+    padding: 0;
+    margin-right: 0;
+    width:137px;
+ }
+
+ul.navi li a {
+    display: block;
+    padding: 13px 21px;
+    color: #fff;
+    text-decoration: none /*!important*/;
+ }
+ul.navi li:hover {
+    background: #f37934;
+    color: #fff;
+ }
+ul.navi li ul {
+    padding: 0;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 150px;
+    display: none;
+  /*opacity: 0;*/
+  /*visibility: hidden;*/
+    transition: opacity 0.2s;
+    z-index: 1000;
+}
+ul.navi li ul li {
+    background: #28324e;
+    display: block;
+    color: #fff;
+ }
+
+ul.navi li ul li:hover { 
+    background: #f37934; 
+ }
+
+ul.navi li:hover ul {
+    display: block;
+  /*opacity: 1;*/
+  /*visibility: visible;*/
+ }
+ 
+/* settings for image upload */
+input.imgcollector {
+	display: none; /* could be changed to width and height of 0.1 when there are problems */
+}	
+
+input[type="submit"], button {
+  background: #2c82c9;
+  border: 1px solid #2969b0;
+  padding: 3px 6px;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+input[type="submit"]:hover, button:hover  {
+  background: #fba026;
+  border: 1px solid #f37934;
+}
+
+input[type="submit"]:disabled {
+  background: #cc92b9;;
+  border: 1px solid #f37934;
+}
+
+p>input[type="button"] {
+  background: #2c82c9;
+  border: 1px solid #2969b0;
+  padding: 3px 8px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+p>input[type="button"]:hover {
+  background: #41a85f;
+  border: 1px solid #00a885;
+}
+
+input[type="button"] {
+  background: #eb6b56;
+  border: 1px solid #d14841;
+  padding: 3px 8px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+input[type="button"]:hover {
+  background: #e14938;
+  border: 1px solid #b8312f;
+}
+
+
+.attributes-color-container {width:25px;height:15px;display:inline-block;border:solid 1px #000;}
